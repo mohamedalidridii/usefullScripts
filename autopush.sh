@@ -1,5 +1,5 @@
 #!/bin/bash
-# This file is 
+# medaly.dridi 
 # Define your variables
 
 REPO_PATH= "/path/to/your/project"
