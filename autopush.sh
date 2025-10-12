@@ -1,8 +1,8 @@
 #!/bin/bash
-
+# This file is 
 # Define your variables
 
-REPO_PATH= "/home/medalydridi/projects/medaly.dridi"
+REPO_PATH= "/path/to/your/project"
 COMMIT_MESSAGE= "Automated commit on $(date + '%Y-%m-%d at %H:%M:%S')"
 BRANCH_NAME="main"
 
@@ -15,7 +15,6 @@ fi
 git pull origin "$BRANCH_NAME"
 git add .
 git commit -m "$COMMIT_MESSAGE"
-
 
 git push origin "$BRANCH_NAME"
 
